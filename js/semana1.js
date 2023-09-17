@@ -67,9 +67,11 @@ document.write(esInvierno("enero"));
 //La funcion devuelve true o false, dependiendo de los sintomas del paciente.
 let sintomasPaciente = ["fiebre", "dolor muscular", "vomitos"];
 let sintomasCovid = ["fiebre", "dolor muscular", "perdida de gusto"];
-document.write("<br/> Paciente 1 tiene Covid:" +  esCovid(sintomasPaciente, sintomasCovid));
+document.write("<br/> Paciente 1 tiene Covid: " +  esCovid(sintomasPaciente, sintomasCovid));
 sintomasPaciente = ["fiebre", "titila ojo", "vomitos"];
-document.write("<br/> Paciente 2 tiene Covid:" +  esCovid(sintomasPaciente, sintomasCovid));
+document.write("<br/> Paciente 2 tiene Covid: " +  esCovid(sintomasPaciente, sintomasCovid));
 
 //La funcion devuelve el dia y hora de la materia. 
-document.write("<br/> Horario materia LENGUA: " + horarioCursada("LENGUA"));
+document.write("<br/> Horario materia Lengua: " + horarioCursada("LENGUA"));
+document.write("<br/> Horario materia Matematica: " + horarioCursada("MATEMATICA"));
+document.write("<br/> Horario materia Programacion: " + horarioCursada("PROGRAMACION"));

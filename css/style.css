@@ -1,3 +1,29 @@
-br {
-    background-color: blueviolet;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+  }
+
+  body{
+    background-color: aliceblue;    
+  }
+
+  h1 {
+    background-color: rgb(147, 210, 242);
+    display: flexbox;
+    text-align: center;
+    padding: 15px;
+    gap: 2em;
+  }
+
+  .scripts{
+    background-color: #e3e3e3;
+    text-align: justify;
+    color: rgb(27, 15, 120);
+    gap: 2em;
+    border: solid;
+  }
