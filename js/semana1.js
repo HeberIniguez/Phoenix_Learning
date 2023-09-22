@@ -75,3 +75,52 @@ document.write("<br/> Paciente 2 tiene Covid: " +  esCovid(sintomasPaciente, sin
 document.write("<br/> Horario materia Lengua: " + horarioCursada("LENGUA"));
 document.write("<br/> Horario materia Matematica: " + horarioCursada("MATEMATICA"));
 document.write("<br/> Horario materia Programacion: " + horarioCursada("PROGRAMACION"));
+
+// --------------------- JS0 ----------------
+
+//1. Crea 10 variables de tipo string (cadena de texto) y asignale cualquier texto.
+
+let materia_1 = "Programacion Estructurada";
+let materia_2 = "Programacion Orientada a Objetos";
+let materia_3 = "Algoritmos y Estructura de Datos";
+let materia_4 = "Calculo Diferencial";
+let materia_5 = "Calculo Integral";
+let materia_6 = "Calculo Vectorial";
+let materia_7 = "Ecuaciones Diferenciales";
+let materia_8 = "Matematicas Discretas";
+let materia_9 = "Algebra Lineal";
+let materia_10 = "Ingenieria de Software";
+
+
+//2. Crea 10 variables de tipo number (numero) y asígnale cualquier número.
+
+let numeroUno = 1;
+let numeroDos = 2;
+let numeroTres = 3;
+let numeroCuatro = 4;
+let numeroCinco = 5;
+let numeroSeis = 6;
+let numeroSiete = 7;
+let numeroOcho = 8;
+let numeroNueve = 9;
+let numeroDiez = 10;
+
+
+//3. Crea 10 variables de tipo boolean (true/false) y asígnale cualquier valor.
+
+let _materia_1 = true;
+let _materia_2 = false;
+let _materia_3 = true;
+let _materia_4 = false;
+let _materia_5 = true;
+let _materia_6 = false;
+let _materia_7 = true;
+let _materia_8 = false;
+let _materia_9 = true;
+let _materia_10 = false;
+
+console.log("Numero de la Materia: " + numeroSiete);
+console.log("Nombre de la Materia: " + materia_7 );
+console.log("Vigente: " + _materia_7 );
+
+console.log("\nNo." + numeroDiez + " -  " + materia_10 + ": " + _materia_10 );
